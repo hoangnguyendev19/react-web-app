@@ -1,0 +1,12 @@
+.list-users {
+  &__item {
+    width: 400px;
+    padding: 5px 0;
+    border: 2px solid grey;
+    margin: 0 auto;
+    cursor: pointer;
+    &:hover {
+      color: aqua;
+    }
+  }
+}

@@ -4,7 +4,6 @@ import MyComponents from "./Home/MyComponents";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import ListUsers from "./Users/ListUsers";
-import DetailUser from "./Users/DetailUser";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "./navigation/Navigation";
@@ -26,11 +25,8 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/users" exact>
-              <ListUsers />
-            </Route>
-            <Route path="/users/:id">
-              <DetailUser />
+            <Route path="/about">
+              <About />
             </Route>
           </Switch>
         </header>
